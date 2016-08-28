@@ -1,0 +1,34 @@
+<h1>
+Suh Dude
+</h1>
+
+<p>
+This is my paragraph. Wanna read?
+</p>
+
+<script>
+
+$(document).ready(function() {
+	$var = 1;
+	$(‘h1’).click(function() {
+		if($var==1) {
+			$(this).css(“color”,”red”);
+			$var = 0;
+		}
+		else {
+			$(this).css(“color”,”black”);
+			$var = 1;
+		}I
+	});
+
+	$(‘p’).mouseover(function() {
+		$(this).css(“font-size”,”100px”);
+	});
+	
+	$(‘p’).mouseleave(function() {
+		$(this).css(“font-size”,”10px”);
+	});
+
+});
+
+</script>

@@ -1,0 +1,82 @@
+<html>
+  <div id='img'>
+    <h1 id='opener' class='clickit'>hi...</h1>
+    <h1 id='opener'>i am <mark id='highlighted'>Max</mark> and i make stuff</h1>
+  </div>
+  <div>
+    <h2>SO HERE IS MY STORY...</h2>
+    <p>I believe everybody was born to make something. Something that has meaning either to themselves or the world around us. Humans are given such amazing powerful brains, and to me, it only makes sense that we make use of it. Check out this site to stay up to date with my most recent creations, and get inspired to create yourself.
+  </div>
+  <h2>CHECK OUT MY SOCIAL LIFE
+  <ul class='socialButton list-inline'>
+      <li>
+        <form class=''>
+          <input type="button" class='btn-primary btn-lg' value="Instagram" onclick="window.location.href='https://www.instagram.com/mjomdal/'" />
+        </form>
+      </li>
+      <li>
+        <form>
+          <input type='button' class='btn-primary btn-lg' value='Twitter' onClick="window.location.href='https://twitter.com/trisquareapp'" />
+        </form>
+      </li>
+      <li>
+        <form>
+          <input type='button' class='btn-primary btn-lg' value='LinkedIn' onClick="window.location.href='https://www.linkedin.com/profile/view?id=AAIAABny4NoBl1oO3xzA0QvH4W5DNh_h1DSkxPs&trk=nav_responsive_tab_profile'" />
+        </form>
+      </li>
+    </ul>
+</html>
+
+
+
+
+
+
+#img {
+  padding-left:400px;
+  padding-top:30px;
+  height:500px;
+  background-image: url(http://wallpaperlayer.com/img/2015/1/blurred-city-lights-7598-7892-hd-wallpapers.jpg);
+}
+
+#opener {
+  font-size:60px;
+  color:white;
+  font-family:arial;
+}
+
+#highlighted {
+  background-color:white;
+}
+
+h2 {
+  font-family:arial;
+}
+
+p {
+  font-family:Times;
+}
+
+.socialButton {
+  text-align: center;
+  padding: 20px;
+  font-size: 22px;
+}
+
+
+
+
+
+
+
+$(document).ready(function() {
+  $("#highlighted").click(function() {
+    $(".clickit").toggle();
+  });
+  $('#highlighted').hover(function() {
+    $(this).css("background-color","transparent");
+  });
+  $('#highlighted').mouseleave(function() {
+    $(this).css("background-color","white");
+  });
+});

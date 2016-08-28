@@ -1,0 +1,14 @@
+AP COMP SCI TEST
+
+Section I: 40 MC Questions in 1 hour 30 minutes
+Section II: 4 FRQ in 1 hour 30 minutes
+
+Notes From Review Book:
+-Every Java Project must include at least one class with the main method
+-Files that make up a program are called source files
+-Methods must be inside of a class in Java
+-Typecasting works like so:
+  int x, y;
+  double average;
+  average = (double) (x*y)/2;
+-If you want to round a double to the nearest integer, add 0.5 before casting to int
