@@ -5,7 +5,7 @@
 ##### The fibonacci sequence is a series of numbers in which each number ( Fibonacci number ) is the sum of the two preceding numbers. #####
 
   For Example:
-    - the beginning of the sequence looks like so: 0, 1, 1, 2, 3, 5, 8
+  - the beginning of the sequence looks like so: 0, 1, 1, 2, 3, 5, 8
 
   Think about this for a second:
   - given that the first two digits are always 0, 1, the second digit must be one because 0 + 1 = 1
@@ -37,6 +37,7 @@ The fibonacci sequence can be summed up simply as the equation y<sub>n</sub> = y
 - Remember the equation: y<sub>n</sub> = y<sub>n-1</sub> + y<sub>n-2</sub>
 - As long as the code fulfills the requirements, you succeded! Start with this template if you like:
 
+```
 
     class Fibonacci {
       public static int sizeOfSequence = 20;
@@ -53,3 +54,5 @@ The fibonacci sequence can be summed up simply as the equation y<sub>n</sub> = y
       }
 
     }
+
+```
