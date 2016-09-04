@@ -10,3 +10,10 @@
 - Talk to school administration (Get support)
 - How to deal with finances
 - Go class to class promoting
+
+
+Jobs for others:
+- Make poster
+- Check all .md files for errors and have them fixed
+- Get everyone leading on github and working to fix errors
+- Figure out how to store the money
