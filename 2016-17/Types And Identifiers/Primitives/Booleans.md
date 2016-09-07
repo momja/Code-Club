@@ -11,3 +11,21 @@
 boolean newBook = true;
 
 ```
+
+### Truth Tables ###
+- Truth tables can be used to analyze how multiple true-false value can be combined into one with logical operators (check Operators file)
+
+| &&     | T  | F  |
+| -----  | -- | -- |
+| **T**  | T  | F  |
+| **F**  | F  | F  |
+
+|&#124;&#124; | T  | F  |
+| -----  | -- | -- |
+| **T**  | T  | T  |
+| **F**  | T  | F  |
+
+| !      | T  |
+| -----  | -- |
+| **T**  | F  |
+| **F**  | T  |
