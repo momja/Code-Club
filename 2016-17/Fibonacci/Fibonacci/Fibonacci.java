@@ -6,7 +6,7 @@ class Fibonacci {
 
   // main function will doesn't need to be called, it runs on its own
   public static void main(String[] args) {
-    // repeat for every number you print
+    // repeatx for every number you print
     for (int i = 0; i < sizeOfSequence; i++) {
       // print the fibonacci number at position i
       System.out.println(getFib(i));

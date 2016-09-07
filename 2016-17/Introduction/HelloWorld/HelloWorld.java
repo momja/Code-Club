@@ -5,7 +5,7 @@
 public class HelloWorld {
   public static void main(String[] args) {
     //prints "Hello World!" in the console window
-    final String Hello = "Hello World!";
-    System.out.println(Hello);
+    String hello = "Hello Michael!";
+    System.out.println(hello);
   }
 }
