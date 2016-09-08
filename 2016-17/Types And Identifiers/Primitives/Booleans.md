@@ -6,7 +6,7 @@
 - Boolean values are simply True or False values
 - A Boolean is a primitive, or *built-in* type
 
-```
+```java
 
 boolean newBook = true;
 

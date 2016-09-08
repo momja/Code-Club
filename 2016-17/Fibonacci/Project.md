@@ -37,7 +37,7 @@ The fibonacci sequence can be summed up simply as the equation y<sub>n</sub> = y
 - Remember the equation: y<sub>n</sub> = y<sub>n-1</sub> + y<sub>n-2</sub>
 - As long as the code fulfills the requirements, you succeded! Start with this template if you like:
 
-```
+```java
 
     class Fibonacci {
       public static int sizeOfSequence = 20;
