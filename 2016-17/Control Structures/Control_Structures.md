@@ -8,6 +8,9 @@ Control structures allow parts of a program to run in a non-sequential order.
 ### Decision-Making Control Structures ###
 
 - These include if, if...else, and switch statements
+
+#### Conditional Statements ####
+
   - #### if statement: 'if x is true, then do this'
 
   ```java
@@ -43,6 +46,8 @@ Control structures allow parts of a program to run in a non-sequential order.
     // run this code
   }
   ```
+
+#### Switch Statement ####
 
   - #### switch statement:
 

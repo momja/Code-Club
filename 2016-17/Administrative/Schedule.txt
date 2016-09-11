@@ -8,15 +8,17 @@ Schedule
 Introductory presentation. Go through what Code Club will accomplish.
 Ask that kids interested in passing the AP test hang back
 
+11/15 - Morning
+
+Binary, Hexadecimal. Give them some problems to do at home
+
 11/17
 
 Begin coding for real now. Introduce everyone to the language of Java. Show them something cool made with java, then have them make something
 Start with making HelloWorld example, explain variables, constants, and primitive types
-Introduce Binary, Hexadecimal, and Octal system
 
 11/21
 
-Go back to binary and talk about what we did with it last week
-Have everyone solve some simple binary problems
+Introduce Control Structures. Start Fido project.
 
 11/24
