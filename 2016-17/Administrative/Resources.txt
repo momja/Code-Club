@@ -2,3 +2,4 @@
 - Code School
 - Codecademy
 - Free Code Camp
+- Computer Science AP Java youtube videos
