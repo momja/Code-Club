@@ -3,6 +3,8 @@
 
 ## Fido The Coding Dog Wants to sort his bones by size!
 
+![Coding Dog](puppy-coding.jpg "coding puppy")
+
 Help Fido sort his bones! He has created an array with the sizes of his bones, but he isn't sure if they are in order. Write a program to make sure they are in order from smallest to largest.
 
 ### Requirements ###
