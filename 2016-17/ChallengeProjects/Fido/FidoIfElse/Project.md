@@ -1,7 +1,7 @@
 ###### Max Omdal ######
 ###### Code Club 2016 ######
 
-## Fido The Coding Dog ##
+## Fido The Coding Dog Wants A Bone ##
 
 ![Coding Dog](puppy-coding.jpg "coding puppy")
 
