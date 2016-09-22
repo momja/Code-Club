@@ -1,6 +1,6 @@
-### Chapter 2
+### Chapter 2 Variables And Operators
 
-**Declaring variables**
+**2.1 Declaring variables**
 Variable - a named location that stores a value
 Value - can be a number, text, images, sounds, and other data types
 - values must be stored as variables
@@ -43,3 +43,33 @@ Operators - symbols that represent simple computations
 Operands - the values operators work with
 
 **2.6 Floating-point numbers**
+Floating Point Numbers - Can represent fractions as well as integers
+
+```java
+double pi;
+pi = 3.14159;
+```
+
+- an integer divided by an integer will always be rounded to an integer
+- but a double divided by a double gives us a double
+
+**2.7 Rounding errors**
+Rounding error - the difference between the number we want and the floating-point number we get
+
+**2.8 Operators for strings**
+Concatenation - joining of two strings together
+- use + symbol to join strings together
+```java
+System.out.println("Hello, " + "Code Club!");
+//prints "Hello, Code Club!"
+```
+Order of operations - PEMDAS
+
+**2.10 Types of errors**
+Compile-Time Errors - occur when you violate the syntax rules of the java language.
+Parsing - Reading a program before translating
+  - Forgetting to add } can lead to *reached end of file while parsing* errors
+Run-Time Errors - occur while the interpreter is executing byte code and something goes wrong
+  - also called exceptions
+  - the line where the error occurs is not always the source of the problem
+Logic Error - When the code runs without generating errors, but the output is not what you wanted
