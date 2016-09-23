@@ -4,7 +4,6 @@ __author__ = 'maxomdal'
 
 import random
 
-myArray = []
 boardSize = int(raw_input("Please insert the board's desired size."))
 def makeEnemyFleet(numberOfShips):
     total = []
@@ -78,10 +77,13 @@ def myMove(enemyBoard, enemy, attack):
     if len(enemy) == 0:
             print "you sunk their battleship!"
             answer = raw_input("Would you like to play again? Y/N")
-            if answer == "Y":
+            if answer == "Y" or answer == "y":
                 newBoard = makeEnemyBoard()
                 newShip = makeEnemyShip(3)
                 myMove(newBoard, newShip, raw_input("Make Your Move:"))
+            else:
+                #end game
+                exit()
     myMove(enemyBoard, enemy, raw_input("Make Your Move:"))
 
 myMove(makeEnemyBoard(), makeEnemyFleet(3), raw_input("Make Your Move:"))

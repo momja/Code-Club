@@ -19,6 +19,6 @@ Start with making HelloWorld example, explain variables, constants, and primitiv
 
 11/21
 
-Introduce Control Structures. Start Fido project.
+Introduce Control Structures. Start Fido If Else project.
 
 11/24
