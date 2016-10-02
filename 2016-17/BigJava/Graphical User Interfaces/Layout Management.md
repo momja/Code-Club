@@ -32,6 +32,6 @@ buttonPanel.add(button9);
 buttonPanel.add(button4);
 // ...
 keypadPanel.add(buttonPanel, BorderLayout.CENTER);
-JTextFiled display - new JTextField();
+JTextFile display = new JTextField();
 keypadPanel.add(display, BorderLayout.NORTH);
 ```
