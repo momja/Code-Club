@@ -27,3 +27,14 @@ group.add(button3);
 - combo boxes are useful for making dropdown options
 
 ![combo box](https://i-msdn.sec.s-msft.com/dynimg/IC50924.gif "combo box")
+
+```java
+JComboBox facenameCombo = new  JComboBox();
+facenameCombo.addItem("Serif");
+facenameCombo.addItem("SansSerif")
+```
+
+- to get the name of an value in a comboBox:
+```java
+String selectedString = (String) facenameCombo.getSelectedItem();
+```
