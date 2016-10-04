@@ -1,10 +1,4 @@
-50 meetings
-50 members
-
 - Textbooks (~$100 per book)
 - Food ($20-30 per meeting)
 - Review Books (~$10)
-- Class Subscription (~$500) working on deal with code school. codecademy is another option
-- Gamification aspects (~$10 per meeting)
-
-100*10 + 25*50 + 500 + 10*50 = $3250
+- Electronics (Raspberry Pi $5, Arduino $30)
