@@ -1,6 +1,9 @@
 # Choices
 
 Radio Buttons: one button can be selected at a time
+
+![radio button](http://www.java2s.com/Code/JavaImages/RadioButtonDemo.PNG "radio button")
+
 ```java
 JRadioButton button = new JRadioButton("Button-Name");
 ```
@@ -21,3 +24,17 @@ group.add(button3);
 - you can add a border to panels to organize the layout of a window
   - setBorder()
     - there are lots of different border types. One is EtchedBorder()
+- combo boxes are useful for making dropdown options
+
+![combo box](https://i-msdn.sec.s-msft.com/dynimg/IC50924.gif "combo box")
+
+```java
+JComboBox facenameCombo = new  JComboBox();
+facenameCombo.addItem("Serif");
+facenameCombo.addItem("SansSerif")
+```
+
+- to get the name of an value in a comboBox:
+```java
+String selectedString = (String) facenameCombo.getSelectedItem();
+```
