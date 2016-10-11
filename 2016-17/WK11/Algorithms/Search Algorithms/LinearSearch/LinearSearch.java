@@ -17,7 +17,7 @@ class LinearSearch {
     // Key is the value we are searching for in the data set
     int key = 99;
     if (linearSearch(key) != -1) {
-      System.out.println("Found key at index " + linearSearch(1));
+      System.out.println("Found key at index " + linearSearch(key));
     }
     else {
       System.out.println("Key not included in the data set");

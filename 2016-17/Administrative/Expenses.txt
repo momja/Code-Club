@@ -1,4 +1,0 @@
-- Textbooks (~$100 per book)
-- Food ($20-30 per meeting)
-- Review Books (~$10)
-- Electronics (Raspberry Pi $5, Arduino $30)
