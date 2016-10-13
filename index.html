@@ -1,101 +1,23 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>CODE CLUB by momja</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">CODE CLUB</h1>
-      <h2 class="project-tagline">&lt; A club for everyone &gt;</h2>
-      <a href="https://github.com/momja/Code-Club" class="btn">View on GitHub</a>
-      <a href="https://github.com/momja/Code-Club/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/momja/Code-Club/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+---
+layout: default
+---
 
-    <section class="main-content">
-      <h1>
-<a id="hello-code-club-members" class="anchor" href="#hello-code-club-members" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Hello Code Club members!</h1>
+<div class="home">
 
-<h2>
-<a id="what-do-we-do" class="anchor" href="#what-do-we-do" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What Do We Do?</h2>
+  <h1 class="page-heading">Posts</h1>
 
-<p>Meetings are full of lots of things! Most meetings start out with some lessons on programming concepts, then we will spend some time practicing coding and making our own unique projects. We want to give you the skills you need to make whatever you want!</p>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-<p>Some things we will be doing this year:</p>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-<ul>
-<li>Learning Java</li>
-<li>Making simple Games</li>
-<li>Understanding How Programming impacts the world</li>
-<li>Making website</li>
-<li>
-<strong>Optional study</strong> for AP Computer Science Test</li>
-</ul>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-<p>What we can accomplish this year depends on a lot of factors.
-Oh, and we eat a lot of snacks!</p>
-
-<h2>
-<a id="when-is-it" class="anchor" href="#when-is-it" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>When Is It?</h2>
-
-<p>Code Club meetings will be held in the winter, Monday afternoon, Tuesday morning, Thursday afternoon.</p>
-
-<ul>
-<li>Tuesday mornings are for those interested in AP Computer Science</li>
-</ul>
-
-<h2>
-<a id="what-is-our-mission" class="anchor" href="#what-is-our-mission" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What Is Our Mission?</h2>
-
-<p>Code Club was created to found a group of students aware of the beauty behind the hidden languages that make our world go round. Last year we started with small goals, this year Code Club is aiming for fifty members, with several of those members aiming to pass the AP Computer Science test in the Spring. To get to this point will take a lot of work</p>
-
-<h2>
-<a id="who-is-it-for" class="anchor" href="#who-is-it-for" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Who Is It For?</h2>
-
-<p>The beauty of Code Club is it is for everyone! Regardless of what field you want to go into in the future, computer programming will be involved because our whole world is tech oriented. Everyone has a lot to gain from this club.</p>
-
-<h2>
-<a id="what-we-expect-from-you" class="anchor" href="#what-we-expect-from-you" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What we expect from you?</h2>
-
-<p>Work hard at meetings, and everywhere else! If you want to learn how to code you must be patient, and you must put in time outside the club meetings.</p>
-
-<p><strong>For Students interested in AP Comp Sci Test:</strong></p>
-
-<ul>
-<li>Since we only meet three times a week, you will have to do a lot of work on your own. On our GitHub page, we keep as many resources as we can for you! Use it as much as you can! Click Here For Github!</li>
-</ul>
-
-<h2>
-<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contact</h2>
-
-<h3>
-<a id="max-omdal" class="anchor" href="#max-omdal" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Max Omdal:</h3>
-
-<pre><code>Phone: (952) 201 4661
-Email: mjomdal@gmail.com
-</code></pre>
-
-<h3>
-<a id="matthias-hare" class="anchor" href="#matthias-hare" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Matthias Hare:</h3>
-
-<pre><code>Phone: (952) 217 7031
-Email: mattphare53@isd194.org
-</code></pre>
-
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/momja/Code-Club">CODE CLUB</a> is maintained by <a href="https://github.com/momja">momja</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
-  </body>
-</html>
+</div>
