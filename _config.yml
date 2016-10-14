@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Code Club
-email: your-email@domain.com
-description: > # Welcome To LNHS Code Club
+email: mjomdal@gmail.com
+description: > # LNHS Code Club
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 twitter_username: mjomdal
