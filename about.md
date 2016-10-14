@@ -6,8 +6,6 @@ permalink: /about/
 
 # Hello Code Club members!
 
-![meme](meme.jpg)
-
 ## What Do We Do?
 Meetings are full of lots of things! Most meetings start out with some lessons on programming concepts, then we will spend some time practicing coding and making our own unique projects. We want to give you the skills you need to make whatever you want!
 

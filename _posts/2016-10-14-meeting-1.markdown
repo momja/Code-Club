@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "First Meeting"
+date:   2016-10-14 14:19:11 -0500
+categories: first-meeting
+---
+
+# Agenda:
+- Introduce schedule (Monday, Tuesday, Thursday)
+- Explain what the heck code actually is!
+- Talk about how we will be learning code
+- WelcomeCC
+- HelloWorld
+- HelloName
+
+# Article Of The Day:
+- [How many lines of code?](http://www.informationisbeautiful.net/visualizations/million-lines-of-code/)
