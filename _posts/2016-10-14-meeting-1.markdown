@@ -6,7 +6,7 @@ categories: first-meeting
 ---
 
 # Welcome!
-Our first meeting will be held on Thursday, November 17 in room 115 from 3-4PM
+Our first meeting will be held on **Thursday, November 17 in room 115 from 3-4PM**
 - If you are interested, come join us! There will be snacks!
 
 # Agenda:
@@ -17,5 +17,5 @@ Our first meeting will be held on Thursday, November 17 in room 115 from 3-4PM
 - HelloWorld
 - HelloName
 
-# Article Of The Day:
-- [How many lines of code?](http://www.informationisbeautiful.net/visualizations/million-lines-of-code/)
+## Article Of The Day:
+[How many lines of code?](http://www.informationisbeautiful.net/visualizations/million-lines-of-code/)
