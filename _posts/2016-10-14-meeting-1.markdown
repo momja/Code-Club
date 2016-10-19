@@ -5,6 +5,10 @@ date:   2016-10-14 14:19:11 -0500
 categories: first-meeting
 ---
 
+# Welcome!
+Our first meeting will be held on Thursday, November 17 in room 115 from 3-4PM
+- If you are interested, come join us! There will be snacks!
+
 # Agenda:
 - Introduce schedule (Monday, Tuesday, Thursday)
 - Explain what the heck code actually is!
