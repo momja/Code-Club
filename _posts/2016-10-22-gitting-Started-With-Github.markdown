@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Getting Started With Our Github"
-date:   2016-22-18 14:19:11 -0500
+date:   2016-10-22 14:19:11 -0500
 categories: second-meeting
 ---
 
@@ -10,10 +10,13 @@ categories: second-meeting
 1. Go to this site: [Create account](https://github.com/join/customize)
 2. Then type in the information needed:
 <br></br>
-![gh 1](/gh_tutorial_01.gif)
+![gh 1](/gifs/gh_tutorial_01.gif)
 <br></br>
-![gh 2](/gh_tutorial_02.gif)
+![gh 2](/gifs/gh_tutorial_02.gif)
+<br></br>
 3. Go to this site: [Code Club Project](https://github.com/momja/Code-Club)
 4. Star project, bookmark, memorize URL, just find a way to get back to this site when you need it.
 <br></br>
-![gh 3](/gh_tutorial_03.gif)
+![gh 3](/gifs//gh_tutorial_03.gif)
+<br></br>
+5. Hey you did it! Also, don't forget to continually check this site for other resources
