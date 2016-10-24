@@ -16,7 +16,7 @@ Use one of these platforms to donate to Code Club! If you are in the club, you c
 
 
 
-![paypal](https://www.paypalobjects.com/webstatic/icon/favicon.ico)
+![paypal](http://hatediplomacy.com/wp-content/themes/simple-bootstrap-child/images/paypal.png)
 **Paypal:** Coming Soon Stay Tuned!
 
 ![Bitcoin](https://www.worldcoinindex.com/Content/img/coins/v-636096477580774340/Bitcoin.png)
