@@ -18,7 +18,7 @@ email: mjomdal@gmail.com
 description: > # LNHS Code Club
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-twitter_username: mjomdal
+twitter_username: LNHS_Code_Club
 github_username:  momja
 
 # Build settings
