@@ -11,7 +11,7 @@ All donations are put into the school code club bank account. This money will th
 
 # How to donate
 
-Use one of these platforms to donate to Code Club! If you are in the club, you can also donate in person! Just talk to one of our officers!
+f you are in the club, the easiest way to donate is in person! Just talk to one of our officers! You can also use one of these platforms to donate to the Club!
 
 
 
