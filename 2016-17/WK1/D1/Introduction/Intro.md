@@ -2,6 +2,8 @@
 
 ![meme](meme.jpg)
 
+Link to google presentation: [Here](https://docs.google.com/presentation/d/1050Nsg7OW_D_WovhY_0UgM7h2bWyBQME27npsfM8BW0/edit?usp=sharing)
+
 ## What Do We Do?
 Meetings are full of lots of things! Most meetings start out with some lessons on programming concepts, then we will spend some time practicing coding and making our own unique projects. We want to give you the skills you need to make whatever you want!
 
@@ -27,6 +29,8 @@ The beauty of Code Club is it is for everyone! Regardless of what field you want
 
 ## What we expect from you?
 Work hard at meetings, and everywhere else! If you want to learn how to code you must be patient, and you must put in time outside the club meetings.
+
+We ask every member pay $5 to allow to provide things like snacks, books, and other cool stuff!
 
 **For Students interested in AP Comp Sci Test:**
 - Since we only meet three times a week, you will have to do a lot of work on your own. On our GitHub page, we keep as many resources as we can for you! Use it as much as you can! [Click Here For Github!]("https://github.com/momja/Code-Club")
