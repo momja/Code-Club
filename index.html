@@ -1,20 +1,20 @@
-<!DOCTYPE html>
+---
+layout: default
+---
+
+
 <html>
 <head>
-<title>Code Club</title>
-</head>
-<body>
---- layout: default ---
-<script async src=
-"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-</script>
-<script>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+  <script>
     (adsbygoogle = window.adsbygoogle || []).push({
       google_ad_client: "ca-pub-8225255780254180",
       enable_page_level_ads: true
     });
-</script>
-<script>
+  </script>
+  <title>Code Club</title>
+  <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -22,24 +22,35 @@
 
     ga('create', 'UA-85764709-1', 'auto');
     ga('send', 'pageview');
-</script>
-<div class="header">
-<h2>Welcome to LNHS Code Club! This is our website where we will
-share everything that our club accomplishes. It is also a place to
-come and learn about code.</h2>
-</div>
-<div class="home">
-<h1 class="page-heading">Posts</h1>
-<ul class="post-list">
-<li style="list-style: none">{% for post in site.posts %}</li>
-<li><span class="post-meta">{{ post.date | date: "%b %-d, %Y"
-}}</span>
-<h2><a class="post-link" href=
-"{{%20post.url%20|%20prepend:%20site.baseurl%20}}">{{ post.title |
-escape }}</a></h2>
-</li>
-<li style="list-style: none">{% endfor %}</li>
-</ul>
-</div>
+  </script>
+</head>
+
+
+<body>
+  <div class="header">
+    <h2>
+      Welcome to LNHS Code Club! This is our website where we will share everything
+      that our club accomplishes. It is also a place to come and learn about code.
+    </h2>
+
+  </div>
+  <div class="home">
+
+    <h1 class="page-heading">Posts</h1>
+
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+          </h2>
+        </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+
 </body>
-</html>
+<html>
