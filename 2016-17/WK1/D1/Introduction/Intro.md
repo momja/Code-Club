@@ -46,3 +46,8 @@ Email: mjomdal@gmail.com
 Phone: (952) 217 7031
 Email: mattphare53@isd194.org
 ```
+### Jared Bock:
+```
+Phone: (952) 491 3084
+Email: jarecbock14@isd194.org
+```
