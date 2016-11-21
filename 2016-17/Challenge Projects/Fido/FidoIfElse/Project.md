@@ -1,21 +1,21 @@
 ###### Max Omdal ######
 ###### Code Club 2016 ######
 
-## Fido The Coding Dog Wants A Bone ##
+## Tom The Coding Turkey Wants To Count His Feathers ##
 
-![Coding Dog](puppy-coding.jpg "coding puppy")
+![Turkey](https://media.giphy.com/media/P3fvNvw0AcP3q/giphy.gif)
 
- #### Our coding furry friend fido needs help! ####
-Fido wants to be able to organize his bones with some Java, but he doesn't know how!
-Given how many bones fido has, let's give print out a rough estimate of how many bones he has.
+ #### Our coding feathery friend Tom needs help! ####
+Tom wants to be able to count his feathers with some Java, but he doesn't know how!
+Given how many feathers Tom has, let's print out a rough estimate of how many feathers he has.
 
-Fido wants to know if he has more than 10 bones, at least one bone, or no bones.
+Tom wants to know if he has more than 10 feathers, at least one feather, or no feathers.
 
 ### Requirements ###
 - Must be written in Java
-- If fido has more than 10 bones, lets say "Fido has a lot of bones!"
-- If fido has at least one bone, lets say "Fido has some bones!"
-- If fido doesn't have any bones :( lets say "Fido has no bones!"
+- If Tom has more than 10 feathers, lets say "Tom has a lot of feathers!"
+- If Tom has at least one feather, lets say "Tom has some feathers!"
+- If Tom doesn't have any feathers :( lets say "Tom has no feathers!"
 
 ### Hints ###
 - We will have to use a conditional statement here.
@@ -23,7 +23,7 @@ Fido wants to know if he has more than 10 bones, at least one bone, or no bones.
 
 ```java
 
-class Fido {
+class Tom {
   public static void main(String[] args) {
     //put your conditional statement here
   }
