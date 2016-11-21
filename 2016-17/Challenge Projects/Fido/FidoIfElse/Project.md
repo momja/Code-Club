@@ -5,7 +5,7 @@
 
 ![Turkey](https://media.giphy.com/media/P3fvNvw0AcP3q/giphy.gif)
 
- #### Our coding feathery friend Tom needs help! ####
+ ### Our coding feathery friend Tom needs help! ###
 Tom wants to be able to count his feathers with some Java, but he doesn't know how!
 Given how many feathers Tom has, let's print out a rough estimate of how many feathers he has.
 
