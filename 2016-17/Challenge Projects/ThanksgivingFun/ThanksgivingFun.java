@@ -12,7 +12,7 @@ public class ThanksgivingFun {
     int poundsOfFood = numberOfPeople * 2;
     System.out.println("Richard needs " + poundsOfFood + " pounds of food.");
 
-    if (poundsOfFood <= 10) {
+    if (poundsOfFood == 0) {
       System.out.println("Richard needs a little bit of food.");
     }
     else if (poundsOfFood <= 20) {
