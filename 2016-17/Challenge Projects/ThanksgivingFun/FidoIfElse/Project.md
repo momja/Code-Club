@@ -23,7 +23,7 @@ Tom wants to know if he has more than 10 feathers, at least one feather, or no f
 
 ```java
 
-class Tom {
+public class Tom {
   public static void main(String[] args) {
     //put your conditional statement here
   }
