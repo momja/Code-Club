@@ -1,6 +1,7 @@
 # Fido and While Loops
 
 Fido the coding dog is playing hide-and-seek with his friends Rex and Spot
+![Fido the dog](imgres-1.jpg)
 - Fido is it!
 - He needs help counting up to one-hundred, and the faster he counts, the sooner he gets to look for Rex and Spot
   - Help Fido count up to 100 really fast by writing some code!

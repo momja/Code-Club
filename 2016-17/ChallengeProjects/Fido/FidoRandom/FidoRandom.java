@@ -9,13 +9,15 @@ public class FidoLoop {
       count = count + 1;
     }
     System.out.println("Ready or not, here I come!!!");
-
-    double x = Math.random();
-    if (x <= 0.5) {
-      System.out.println("Fido found Rex and Spot!");
+    int x = 10;
+    int y = 100;
+    int number = (int) (Math.random()*x) +y;
+    int random = number % 2;
+    if (random == 0) {
+      System.out.println("I found them");
     }
     else {
-      System.out.println("Fido did not find his friends :(");
+      System.out.println("I couldn't find them:(");
     }
   }
 }
