@@ -11,4 +11,4 @@ categories:
 - T Shirts Cost $8
 
 # Follow this
-(link)[https://www.customink.com/g/qqa0-00aq-ydtp]
+[link](https://www.customink.com/g/qqa0-00aq-ydtp)
