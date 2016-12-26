@@ -19,9 +19,6 @@ f you are in the club, the easiest way to donate is in person! Just talk to one 
 ![paypal](http://hatediplomacy.com/wp-content/themes/simple-bootstrap-child/images/paypal.png)
 **Paypal:** Coming Soon Stay Tuned!
 
-![Bitcoin](https://www.worldcoinindex.com/Content/img/coins/v-636096477580774340/Bitcoin.png)
-**Bitcoin:** 1PBmkP89BgtbmydHxWtJJy6F19cBZxhZo9
-
 ![Square Cash](http://media.idownloadblog.com/wp-content/uploads/2013/10/square-cash-icon-55x55.png)
 **Square Cash:** cash.me/$CodeClub
 
