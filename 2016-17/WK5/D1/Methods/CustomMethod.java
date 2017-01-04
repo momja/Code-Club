@@ -1,11 +1,17 @@
+
+
+
+
+
+
 // Max Omdal
 // Code Club 2016
 
-class CustomMethod {
+public class CustomMethod {
 
   //Ayyyyye! It's our own method!
   public static void newLine() {
-    System.out.println();
+    System.out.println("1.5 Line.");
   }
 
   public static void main(String[] args) {
