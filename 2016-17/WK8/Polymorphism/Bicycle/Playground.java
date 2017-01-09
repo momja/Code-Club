@@ -5,7 +5,9 @@ public class Playground {
         // Bicycle objects
         Bicycle bike1 = new Bicycle();
         MountainBike bike2 = new MountainBike();
+        Bicycle bike3 = new MountainBike();
 
+        System.out.println(bike3.treadWidth);
         // Invoke methods on
         // those objects
         bike1.changeCadence(50);
