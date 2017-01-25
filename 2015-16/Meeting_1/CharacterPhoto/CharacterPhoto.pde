@@ -5,8 +5,8 @@ String text[] = {};
 
 void setup() {
   String finalPicture[] = {};
-  size(530,380);
-  img = loadImage("mallard_duck.jpeg");
+  size(47,65);
+  img = loadImage("max.png");
   img.loadPixels();
   loadPixels();
   for (int y = 0; y < img.height; y++) {
@@ -22,7 +22,7 @@ void setup() {
       color c = color(r, g, b);
       pixels[loc] = c;
       
-      /*if (r <= 100) {
+      if (r <= 100) {
         text = append(text, "x");
       }
       else if (r <= 200) {
@@ -32,48 +32,48 @@ void setup() {
         text = append(text, "n");
       }
       else if (r <= 100) {
-        text = append(text, '3');
+        text = append(text, "3");
 
       }
       else if (r <= 125) {
-        text = append(text, '4');
+        text = append(text, "4");
 
       }
       else if (r <= 150) {
-        text = append(text, '5');
+        text = append(text, "5");
 
       }
       else if (r <= 175) {
-        text = append(text, '6');
+        text = append(text, "6");
 
       }
       else if (r <= 200) {
-        text = append(text, '7');
+        text = append(text, "7");
 
       }
       else if (r <= 225) {
-        text = append(text, '8');
+        text = append(text, "8");
 
       }
       else {
-        text = append(text, '9');
+        text = append(text, "9");
 
-      }*/
-      if (r > b && r > g) {
-        text = append(text, "r");
       }
-      else if (b > g && b > r) {
-        text = append(text, "b");
-      }
-      else if (g > r && g > b) {
-       text = append(text, "g");
-      }
-      else if (g == r && r == b && g != 255) {
-        text = append(text, "x");
-      }
-      else {
-        text = append(text, "W");
-      }
+      //if (r > b && r > g) {
+      //  text = append(text, "r");
+      //}
+      //else if (b > g && b > r) {
+      //  text = append(text, "b");
+      //}
+      //else if (g > r && g > b) {
+      // text = append(text, "g");
+      //}
+      //else if (g == r && r == b && g != 255) {
+      //  text = append(text, "x");
+      //}
+      //else {
+      //  text = append(text, "W");
+      //}
     }
   }
   
